@@ -1,0 +1,30 @@
+.exit-button {
+	margin: 20px;
+}
+
+.game-container {
+	height: 100%;
+	width: 100%;
+}
+
+.falling-object {
+	position: absolute;
+}
+
+.object-text {
+	font-size: 64px;
+	font-family: "DIN";
+	color: #4C4C4C;
+	text-align: center;
+}
+
+#duo {
+	position: absolute;
+	bottom: 0;
+	left: 40%;
+}
+
+@font-face {
+	font-family: "DIN";
+	src: url('fonts/DINNextRoundedLTPro-Bold.otf');
+}
