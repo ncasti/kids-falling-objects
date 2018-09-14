@@ -11,10 +11,10 @@ jQuery(document).ready(function() {
         $(".falling-object:eq(2)").delay(2000).animate({bottom: 170}, 3600);
         $(".falling-object:eq(2)").fadeOut("fast");
 
-        $(".falling-object:eq(3)").delay(3600).animate({bottom: 170}, 3600);
-        $(".falling-object:eq(3)").fadeOut("fast");
+        $(".falling-object:eq(4)").delay(3600).animate({bottom: 170}, 3600);
+        $(".falling-object:eq(4)").fadeOut("fast");
 
-        $(".falling-object:last").delay(4000).animate({bottom: 170}, 3600);
-        $(".falling-object:last").fadeOut("fast");
+        $(".falling-object:eq(1)").delay(4000).animate({bottom: 170}, 3600);
+        $(".falling-object:eq(1)").fadeOut("fast");
 
 })
